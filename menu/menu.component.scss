@@ -1,0 +1,210 @@
+.main-section {
+    margin-top: 40px;
+}
+
+.menu-title {
+    color: #A974FF;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.logo-title-style {
+    text-align: center;
+    padding-top: 24px;
+}
+
+.c-letter {
+    background-color: white;
+    color: #A974FF;
+    font-size: xx-large;
+    padding: 16px;
+    font-weight: bolder;
+    border-radius: 50px;
+    -moz-box-shadow: -10px 16px 24px -2px #EBEDF8;
+    -webkit-box-shadow: -10px 16px 24px -2px #EBEDF8;
+    box-shadow: -10px 16px 24px -2px #EBEDF8;
+}
+
+/* menu style */
+
+.menu-subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 60px;
+}
+
+.menu-links {
+    margin-top: 50px;
+}
+
+.menu-list {
+    list-style: none;
+    color: #A4B6E1;
+    padding-left: 0;
+}
+
+.list-item {
+    padding: 20px 30px 20px 60px;
+}
+
+.list-item:hover {
+    color: #25396F;
+    -moz-box-shadow: -10px 16px 24px -2px #EBEDF8;
+    -webkit-box-shadow: -10px 16px 24px -2px #EBEDF8;
+    box-shadow: -10px 16px 24px -2px #EBEDF8;
+}
+
+.list-item:hover i {
+    color: #A974FF;
+}
+
+.arrow-style {
+    float: right;
+}
+
+.list-item i {
+    margin-right: 10px;
+}
+
+/* account info */
+
+.account {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding: 0 0px 0 60px;
+}
+
+.acc-info p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.acc-info .acc-username {
+    font-size: small;
+    color: #A9BAE3;
+    margin-top: 5px;
+}
+
+.acc-follow {
+    width: 40%;
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.acc-image {
+    display: inline-block;
+    width: 20%;
+    vertical-align: sub;
+}
+
+.avatar-image {
+    border-radius: 25px;
+    border: 3px solid white;
+}
+
+.acc-info {
+    width: 40%;
+    display: inline-block;
+    font-size: small;
+    font-weight: 600;
+}
+
+/*install app*/
+
+.install-app {
+    background-color: #C6A5FF;
+    border: 3px solid #FFF;
+    border-radius: 10px;
+    height: 180px;
+    margin: 20px 60px 20px 60px;
+    -moz-box-shadow: -10px 16px 24px -2px #E5E8F5;
+    -webkit-box-shadow: -10px 16px 24px -2px #E5E8F5;
+    box-shadow: -10px 16px 24px -2px #E5E8F5;
+}
+
+@media screen and (max-width: 1366px) {
+    .list-item {
+        padding: 20px 0px 20px 40px;
+    }
+
+    .menu-subtitle {
+        padding: 20px 100px 20px 40px;
+    }
+
+    .account {
+        padding: 0 0px 0 20px;
+    }
+
+    .install-app {
+        margin: 20px 40px 20px 22px;
+    }
+
+    .arrow-style {
+        width: 0px;
+        margin-right: -5px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .menu-subtitle {
+        padding: 20px 80% 20px 40px;
+    }
+
+    .account {
+        padding: 0 0px 0 35px;
+    }
+
+    .acc-image {
+        width: 6%;
+    }
+
+    .install-app {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .arrow-style {
+        width: 0px;
+        margin-right: 0;
+    }
+
+    .main-section {
+        padding-bottom: 40px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .list-item {
+        padding: 20px 0px 20px 40px;
+    }
+
+    .menu-subtitle {
+        padding: 20px 100px 20px 40px;
+    }
+
+    .account {
+        padding: 0 0px 0 35px;
+    }
+
+    .acc-image {
+        width: 6%;
+    }
+
+    .install-app {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .arrow-style {
+        width: 0px;
+        margin-right: -5px;
+    }
+
+    .acc-info {
+        margin-left: 40px;
+    }
+}

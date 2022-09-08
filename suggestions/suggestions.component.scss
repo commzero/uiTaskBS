@@ -1,0 +1,92 @@
+.sugg-padding {
+    padding: 10px 28px 0px 0px;
+}
+
+.sugg-title {
+    font-size: medium;
+    font-weight: 700;
+}
+
+.see-all {
+    font-size: medium;
+    font-weight: 700;
+    color: #A974FF;
+}
+
+.acc-image {
+    display: inline-block;
+    width: 20%;
+    vertical-align: sub;
+}
+
+.avatar-image {
+    border-radius: 25px;
+    border: 3px solid white;
+}
+
+.acc-info {
+    width: 40%;
+    display: inline-block;
+    font-size: small;
+    font-weight: 600;
+}
+
+.follow-account {
+    margin-bottom: 20px;
+}
+
+.acc-info p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.acc-info .acc-username {
+    font-size: small;
+    color: #A9BAE3;
+    margin-top: 5px;
+}
+
+.acc-follow {
+    width: 40%;
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.follow-button {
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: none;
+    background-color: #A974FF;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    float: right;
+    margin-right: 24px;
+}
+
+.followed-button {
+    padding: 8px 15px;
+    background-color: #F0F5FF;
+    color: black;
+    border: 1px solid #D8E4F2;
+}
+
+@media screen and (max-width: 900px) {
+    .see-all {
+        float: right;
+    }
+
+    .sugg-padding {
+        padding: 0;
+        margin: 0;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .sugg-padding {
+        padding: 0;
+        margin: 0;
+        width: 90%;
+    }
+}

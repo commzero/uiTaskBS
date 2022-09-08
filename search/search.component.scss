@@ -1,0 +1,104 @@
+.input-style {
+    position: relative;
+    padding: 16px 10px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 16px;
+    border: 2px solid #DCE6F4;
+    width: 40%;
+    text-align: center;
+    background-color: #F4F6FF;
+}
+
+.input-inner-style {
+    border: none;
+    background-color: #F4F6FF;
+    width: 70px;
+    color: #D6DEF4;
+}
+
+.search-icon {
+    color: #C2CEEC;
+    margin-right: 10px;
+}
+
+input::placeholder {
+    color: #D6DEF4;
+    font-weight: 700;
+}
+
+.notify-style {
+    padding: 16px 18px;
+    border: 2px solid #DCE6F4;
+    border-radius: 100%;
+    font-size: 16px;
+    color: #A3B6E1;
+    margin-right: 10px;
+    background-color: #F4F6FF;
+    position: relative;
+}
+
+.cloud-style {
+    padding: 16px;
+    border-radius: 100%;
+    font-size: 16px;
+    color: #FFF;
+    margin-right: 10px;
+    background-color: #58B9FF;
+    -moz-box-shadow: -8px 18px 36px -3px #58b9ff;
+    -webkit-box-shadow: -8px 18px 36px -3px #58b9ff;
+    box-shadow: -8px 18px 36px -3px #58b9ff;
+}
+
+input:focus {
+    outline: none;
+}
+
+.bullet-style {
+    color: #F67097;
+    position: absolute;
+    right: 16px;
+    top: 8px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+#notify-wrapper {
+    display: inline;
+}
+
+@media screen and (max-width: 900px) {
+    .input-style {
+        margin-bottom: 28px;
+        display: block;
+        width: 92%;
+    }
+
+    .cloud-style {
+        float: right;
+        margin-top: -18px;
+        /* I know this is not the best practice */
+        margin-right: 24px;
+        margin-bottom: 20px;
+    }
+
+    #notify-wrapper {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .input-style {
+        margin-bottom: 28px;
+        display: block;
+        width: 92%;
+    }
+
+    .cloud-style {
+        float: right;
+        margin-top: -18px;
+        /* I know this is not the best practice */
+        margin-right: 24px;
+        margin-bottom: 20px;
+    }
+}

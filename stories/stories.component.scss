@@ -1,0 +1,49 @@
+.story {
+    width: 4em;
+    height: 4em;
+    border-radius: 100%;
+    margin: 10px;
+    border: 3px solid #C8D8EB;
+    background-clip: content-box;
+    flex: 1 1 80px;
+    padding: 4px;
+    background-color: rgba(248, 247, 216, 0.7);
+    cursor: pointer;
+}
+  #stories-wrapper {
+    display: flex;
+    overflow-x: scroll;
+    text-align: center;
+  }
+  #stories-wrapper::-webkit-scrollbar { 
+    display: none;
+}
+  .story-title {
+    margin-top: 6px;
+    font-size: medium;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .viewed-story {
+    border-color: #A974FF;
+  }
+  .owner-story {
+    position: relative;
+    cursor: pointer;
+  }
+  .add-story {
+    position: absolute;
+    top: 20%;
+    font-size: xx-large;
+    color: white;
+    background-color: rgba(142, 101, 213, 0.7);
+    padding: 8px;
+    border-radius: 50%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+  }

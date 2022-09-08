@@ -1,0 +1,90 @@
+.title-filter {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  text-transform: capitalize;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.filter-text {
+  margin-left: 15px;
+  font-size: medium;
+  font-weight: 700;
+  cursor: pointer;
+  color: #CBD6F0;
+}
+
+.filter-text:hover {
+  color: #A974FF;
+}
+
+/* card style */
+
+.card {
+  color: white;
+  padding: 1rem;
+  height: 240px;
+  text-align: center;
+}
+
+#cards-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.card-photo {
+  border-radius: 20px;
+  border: 3px solid #fff;
+  -moz-box-shadow: -8px 8px 40px -3px #ccc;
+  -webkit-box-shadow: -8px 8px 40px -3px #ccc;
+  box-shadow: -8px 8px 40px -3px #ccc;
+}
+
+.card-footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px 25px;
+}
+
+.feed-name {
+  color: #25396F;
+  font-weight: 600;
+  font-size: medium;
+  vertical-align: super;
+}
+
+.likes-comments {
+  color: #A4B6E1;
+  font-size: large;
+  font-weight: 600;
+}
+
+.card-avatar {
+  border-radius: 25px;
+}
+
+.liked {
+  color: #FF5775;
+}
+
+@media only screen and (max-width: 900px) {
+  .card {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

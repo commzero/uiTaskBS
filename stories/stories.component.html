@@ -1,0 +1,16 @@
+<div id="stories-wrapper">
+    <span>
+        <div class="owner-story">
+            <img class="story" [src]="ownerStory.avatar" alt="Your Profile Picture" width="50" height="50">
+            <div class="add-story">
+                <i class="fa-duotone fa-plus"></i>
+            </div>
+        </div>
+        <p class="story-title text-color">{{ ownerStory.name }}</p>
+    </span>
+    <span *ngFor="let story of stories">
+        <img [class.viewed-story]="story.isViewed" class="story" [src]="story.avatar"
+            alt="{{ story.name }} Profile Picture" width="50" height="50">
+        <p class="story-title text-color">{{ story.name }}</p>
+    </span>
+</div>

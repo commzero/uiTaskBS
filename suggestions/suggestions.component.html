@@ -1,0 +1,22 @@
+<div class="sugg-wrapper">
+    <div class="flex-between-wrapper sugg-padding">
+        <p class="sugg-title">Suggestions For You</p>
+        <p class="see-all">See All</p>
+    </div>
+    <div class="sugg-wrapper" *ngFor="let sugg of suggestions">
+        <div class="follow-account">
+            <div class="acc-image">
+                <img class="avatar-image" width="40" height="40" [src]="sugg.avatar" alt="avatar">
+            </div>
+            <div class="acc-info">
+                <p>{{ sugg.name }}</p>
+                <p class="acc-username">{{ sugg.username }}</p>
+            </div>
+            <div class="acc-follow">
+                <button [class.followed-button]="sugg.isFollowed" class="follow-button pointer">
+                    {{ sugg.isFollowed ? 'Followed' : 'Follow' }}
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
