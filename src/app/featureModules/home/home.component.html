@@ -1,0 +1,23 @@
+<section class="wrapper">
+    <div class="container">
+        <div id="menu">
+            <app-menu></app-menu>
+        </div>
+        <div id="storiesFeed">
+            <div id="stories">
+                <app-stories [stories]="stories"></app-stories>
+            </div>
+            <hr class="line-style">
+            <div id="feed">
+                <app-feed [feeds]="feeds"></app-feed>
+            </div>
+        </div>
+        <div id="suggestionsActivity">
+            <app-search></app-search>
+            <app-suggestions [suggestions]="suggestions"></app-suggestions>
+            <hr class="line-style" width="95%">
+            <app-latest-activity></app-latest-activity>
+            <app-footer></app-footer>
+        </div>
+    </div>
+</section>

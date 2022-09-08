@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  flex: 2;
+}
+
+#menu {
+  flex: 0 0 18%;
+  background-color: white;
+}
+
+#storiesFeed {
+  flex: 1 1;
+  margin: 2em;
+  overflow: hidden;
+}
+
+#suggestionsActivity {
+  padding-left: 16px;
+  margin-top: 40px;
+  border-left: 2px solid rgb(192, 192, 192, 0.3);
+  flex: 0 0 22%;
+}
+
+@media only screen and (max-width: 900px) {
+  #storiesFeed {
+    overflow: unset;
+    width: 85%;
+  }
+
+  #suggestionsActivity {
+    width: 100%;
+  }
+
+  .container {
+    display: unset;
+    padding: 0;
+  }
+
+}
